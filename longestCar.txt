@@ -1,0 +1,316 @@
+
+Generation 1 longest: 198
+Generation 2 longest: 665
+Generation 3 longest: 197
+Generation 4 longest: 170
+-----------
+
+Generation 1 longest: 1062
+Generation 2 longest: 43
+-----------
+
+Generation 1 longest: 198
+Generation 2 longest: 590
+Generation 3 longest: 1006
+Generation 4 longest: 1231
+Generation 5 longest: 107
+-----------
+
+Generation 1 longest: 427
+Generation 2 longest: 1882
+Generation 3 longest: 1983
+Generation 4 longest: 2784
+Generation 5 longest: 2707
+Generation 6 longest: 2706
+Generation 7 longest: 2715
+Generation 8 longest: 2708
+Generation 9 longest: 817
+-----------
+
+Generation 1 longest: 131
+-----------
+
+Generation 1 longest: 143
+-----------
+
+Generation 1 longest: 79
+-----------
+
+Generation 1 longest: 123
+-----------
+
+Generation 1 longest: 175
+-----------
+
+Generation 1 longest: 99
+-----------
+
+Generation 1 longest: 159
+-----------
+
+Generation 1 longest: 479
+-----------
+
+Generation 1 longest: 75
+Generation 2 longest: 63
+Generation 3 longest: 63
+Generation 4 longest: 139
+Generation 5 longest: 196
+Generation 6 longest: 258
+Generation 7 longest: 222
+Generation 8 longest: 23
+Generation 9 longest: 186
+Generation 10 longest: 104
+Generation 11 longest: 337
+Generation 12 longest: -27
+-----------
+
+Generation 1 longest: 79
+Generation 2 longest: 71
+Generation 3 longest: 62
+Generation 4 longest: 83
+Generation 5 longest: 79
+Generation 6 longest: 83
+Generation 7 longest: 95
+Generation 8 longest: 91
+-----------
+
+Generation 1 longest: 82
+Generation 2 longest: 68
+-----------
+
+Generation 1 longest: 166
+Generation 2 longest: 160
+Generation 3 longest: 149
+Generation 4 longest: 150
+Generation 5 longest: 169
+Generation 6 longest: 147
+Generation 7 longest: 358
+Generation 8 longest: 514
+Generation 9 longest: 453
+Generation 10 longest: 648
+Generation 11 longest: 659
+Generation 12 longest: 462
+Generation 13 longest: 651
+Generation 14 longest: 648
+Generation 15 longest: 653
+Generation 16 longest: 650
+Generation 17 longest: 532
+Generation 18 longest: 663
+Generation 19 longest: 655
+Generation 20 longest: 667
+Generation 21 longest: 654
+Generation 22 longest: 680
+Generation 23 longest: 647
+Generation 24 longest: 759
+Generation 25 longest: 4976
+Generation 26 longest: 4995
+Generation 27 longest: 4240
+Generation 28 longest: 1100
+-----------
+
+Generation 1 longest: 168
+Generation 2 longest: 372
+Generation 3 longest: 280
+Generation 4 longest: 346
+Generation 5 longest: 500
+Generation 6 longest: 274
+Generation 7 longest: 281
+Generation 8 longest: 136
+-----------
+
+Generation 1 longest: 148
+Generation 2 longest: 350
+Generation 3 longest: 507
+Generation 4 longest: 500
+Generation 5 longest: 77
+-----------
+
+Generation 1 longest: 161
+Generation 2 longest: 11
+-----------
+
+Generation 1 longest: 117
+-----------
+
+Generation 1 longest: 148
+Generation 2 longest: 186
+Generation 3 longest: 27
+-----------
+
+Generation 1 longest: 164
+Generation 2 longest: 144
+-----------
+
+Generation 1 longest: 211
+-----------
+
+Generation 1 longest: 151
+Generation 2 longest: 19
+-----------
+
+Generation 1 longest: 150
+Generation 2 longest: 162
+Generation 3 longest: 188
+-----------
+
+Generation 1 longest: 158
+Generation 2 longest: 23
+-----------
+
+Generation 1 longest: 129
+-----------
+
+Generation 1 longest: 158
+Generation 2 longest: 26
+-----------
+
+Generation 1 longest: 162
+Generation 2 longest: 160
+-----------
+
+Generation 1 longest: 188
+Generation 2 longest: 276
+Generation 3 longest: -1
+Generation 4 longest: 279
+Generation 5 longest: 281
+Generation 6 longest: 165
+Generation 7 longest: 353
+Generation 8 longest: 352
+Generation 9 longest: 317
+Generation 10 longest: 321
+Generation 11 longest: 321
+Generation 12 longest: 412
+Generation 13 longest: 422
+Generation 14 longest: 332
+Generation 15 longest: 494
+Generation 16 longest: 645
+Generation 17 longest: 627
+Generation 18 longest: 494
+Generation 19 longest: 489
+Generation 20 longest: 489
+Generation 21 longest: 488
+Generation 22 longest: 492
+Generation 23 longest: 491
+Generation 24 longest: 490
+Generation 25 longest: 492
+Generation 26 longest: 488
+Generation 27 longest: 491
+Generation 28 longest: 490
+Generation 29 longest: 488
+Generation 30 longest: 490
+Generation 31 longest: 484
+Generation 32 longest: 490
+Generation 33 longest: 490
+Generation 34 longest: 492
+Generation 35 longest: 492
+Generation 36 longest: 489
+Generation 37 longest: 53
+-----------
+
+Generation 1 longest: 178
+Generation 2 longest: 454
+Generation 3 longest: 500
+Generation 4 longest: 328
+Generation 5 longest: 498
+Generation 6 longest: 498
+Generation 7 longest: 632
+Generation 8 longest: 518
+Generation 9 longest: 685
+Generation 10 longest: 1285
+Generation 11 longest: 4247
+Generation 12 longest: 3756
+Generation 13 longest: 4902
+Generation 14 longest: 3531
+-----------
+
+Generation 1 longest: 179
+Generation 2 longest: 168
+Generation 3 longest: 365
+Generation 4 longest: 228
+-----------
+
+Generation 1 longest: 171
+Generation 2 longest: 163
+Generation 3 longest: 67
+-----------
+
+Generation 1 longest: 170
+Generation 2 longest: 175
+Generation 3 longest: 171
+Generation 4 longest: 63
+-----------
+
+Generation 1 longest: 165
+Generation 2 longest: 206
+Generation 3 longest: 23
+-----------
+
+Generation 1 longest: 176
+Generation 2 longest: 513
+Generation 3 longest: 539
+Generation 4 longest: 683
+Generation 5 longest: 669
+Generation 6 longest: 365
+-----------
+
+Generation 1 longest: 174
+Generation 2 longest: 171
+Generation 3 longest: 175
+Generation 4 longest: 154
+-----------
+
+Generation 1 longest: 340
+Generation 2 longest: 142
+-----------
+
+Generation 1 longest: 154
+Generation 2 longest: 155
+Generation 3 longest: 344
+Generation 4 longest: 361
+Generation 5 longest: 308
+-----------
+
+Generation 1 longest: 496
+Generation 2 longest: 499
+Generation 3 longest: 495
+Generation 4 longest: 497
+Generation 5 longest: 282
+Generation 6 longest: 166
+Generation 7 longest: 235
+Generation 8 longest: 568
+Generation 9 longest: 493
+-----------
+
+Generation 1 longest: 376
+-----------
+
+Generation 1 longest: 38
+-----------
+
+Generation 1 longest: 370
+-----------
+
+Generation 1 longest: 7
+-----------
+
+Generation 1 longest: 497
+-----------
+
+Generation 1 longest: 494
+-----------
+
+Generation 1 longest: 495
+-----------
+
+Generation 1 longest: 372
+Generation 2 longest: 70
+-----------
+
+Generation 1 longest: 495
+Generation 2 longest: 70
+-----------
+
+Generation 1 longest: 346
+-----------
+
