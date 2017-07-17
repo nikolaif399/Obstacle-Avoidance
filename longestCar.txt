@@ -314,3 +314,555 @@ Generation 2 longest: 70
 Generation 1 longest: 346
 -----------
 
+Generation 1 longest: 3
+Generation 1 longest: 7
+Generation 1 longest: 11
+Generation 1 longest: 15
+Generation 1 longest: 19
+Generation 1 longest: 22
+Generation 1 longest: 26
+Generation 1 longest: 30
+Generation 1 longest: 34
+Generation 1 longest: 38
+Generation 1 longest: 42
+Generation 1 longest: 46
+Generation 1 longest: 50
+Generation 1 longest: 54
+Generation 1 longest: 58
+Generation 1 longest: 62
+Generation 1 longest: 66
+Generation 1 longest: 70
+Generation 1 longest: 74
+Generation 1 longest: 78
+Generation 1 longest: 82
+Generation 1 longest: 86
+Generation 1 longest: 90
+Generation 1 longest: 94
+Generation 1 longest: 98
+Generation 1 longest: 102
+Generation 1 longest: 106
+Generation 1 longest: 110
+Generation 1 longest: 113
+Generation 1 longest: 115
+Generation 1 longest: 117
+Generation 1 longest: 119
+Generation 1 longest: 119
+Generation 1 longest: 120
+Generation 1 longest: 122
+Generation 1 longest: 122
+Generation 1 longest: 123
+Generation 1 longest: 124
+Generation 1 longest: 126
+Generation 1 longest: 127
+Generation 1 longest: 128
+Generation 1 longest: 130
+Generation 1 longest: 132
+Generation 1 longest: 133
+Generation 1 longest: 135
+Generation 1 longest: 137
+Generation 1 longest: 139
+Generation 1 longest: 142
+Generation 1 longest: 144
+Generation 1 longest: 147
+Generation 1 longest: 151
+Generation 1 longest: 154
+Generation 1 longest: 158
+Generation 1 longest: 160
+Generation 1 longest: 163
+Generation 1 longest: 167
+Generation 1 longest: 170
+Generation 1 longest: 173
+Generation 1 longest: 177
+Generation 1 longest: 181
+Generation 1 longest: 184
+Generation 1 longest: 188
+Generation 1 longest: 192
+Generation 1 longest: 196
+Generation 1 longest: 200
+Generation 1 longest: 204
+Generation 1 longest: 207
+Generation 1 longest: 211
+Generation 1 longest: 215
+Generation 1 longest: 219
+Generation 1 longest: 223
+Generation 1 longest: 227
+Generation 1 longest: 231
+Generation 1 longest: 235
+Generation 1 longest: 239
+Generation 1 longest: 243
+Generation 1 longest: 247
+Generation 1 longest: 251
+Generation 1 longest: 255
+Generation 1 longest: 259
+Generation 1 longest: 263
+Generation 1 longest: 267
+Generation 1 longest: 271
+Generation 1 longest: 274
+Generation 1 longest: 276
+Generation 1 longest: 279
+Generation 1 longest: 282
+Generation 1 longest: 283
+Generation 1 longest: 284
+Generation 1 longest: 284
+Generation 1 longest: 285
+Generation 1 longest: 286
+Generation 1 longest: 287
+Generation 1 longest: 288
+Generation 1 longest: 290
+Generation 1 longest: 290
+Generation 1 longest: 292
+Generation 1 longest: 293
+Generation 1 longest: 296
+Generation 1 longest: 298
+Generation 1 longest: 300
+Generation 1 longest: 302
+Generation 1 longest: 304
+Generation 1 longest: 307
+Generation 1 longest: 310
+Generation 1 longest: 313
+Generation 1 longest: 315
+Generation 1 longest: 317
+Generation 1 longest: 320
+Generation 1 longest: 323
+Generation 1 longest: 326
+Generation 1 longest: 330
+Generation 1 longest: 333
+Generation 1 longest: 337
+Generation 1 longest: 340
+Generation 1 longest: 344
+Generation 1 longest: 348
+Generation 1 longest: 351
+Generation 1 longest: 355
+Generation 1 longest: 359
+Generation 1 longest: 363
+Generation 1 longest: 367
+Generation 1 longest: 371
+Generation 1 longest: 375
+Generation 1 longest: 379
+Generation 1 longest: 383
+Generation 1 longest: 387
+Generation 1 longest: 391
+Generation 1 longest: 395
+Generation 1 longest: 399
+Generation 1 longest: 403
+Generation 1 longest: 407
+Generation 1 longest: 411
+Generation 1 longest: 415
+Generation 1 longest: 419
+Generation 1 longest: 423
+Generation 1 longest: 427
+Generation 1 longest: 431
+Generation 1 longest: 435
+Generation 1 longest: 438
+Generation 1 longest: 442
+Generation 1 longest: 446
+Generation 1 longest: 450
+Generation 1 longest: 454
+Generation 1 longest: 458
+Generation 1 longest: 462
+Generation 1 longest: 466
+Generation 1 longest: 470
+Generation 1 longest: 474
+Generation 1 longest: 478
+Generation 1 longest: 482
+Generation 1 longest: 485
+Generation 1 longest: 489
+Generation 1 longest: 493
+Generation 1 longest: 486
+Generation 1 longest: 490
+Generation 1 longest: 493
+Generation 1 longest: 494
+Generation 1 longest: 494
+-----------
+
+Generation 1 longest: 497
+Generation 2 longest: 499
+Generation 3 longest: 503
+Generation 4 longest: 501
+Generation 5 longest: 827
+Generation 6 longest: 488
+-----------
+
+Generation 1 longest: 497
+Generation 2 longest: 205
+-----------
+
+Generation 1 longest: 497
+Generation 2 longest: 502
+Generation 3 longest: 531
+Generation 4 longest: 541
+Generation 5 longest: 707
+-----------
+
+Generation 1 longest: 528
+Generation 2 longest: 524
+Generation 3 longest: 526
+Generation 4 longest: 515
+Generation 5 longest: 508
+-----------
+
+Generation 1 longest: 94
+-----------
+
+Generation 1 longest: 520
+-----------
+
+Generation 1 longest: 525
+Generation 2 longest: 517
+Generation 3 longest: 518
+Generation 4 longest: 510
+Generation 5 longest: 519
+Generation 6 longest: 504
+Generation 7 longest: 526
+Generation 8 longest: 526
+-----------
+
+Generation 1 longest: 4246
+-----------
+
+Generation 1 longest: 2877
+-----------
+
+Generation 1 longest: 716
+-----------
+
+Generation 1 longest: 281
+Generation 2 longest: 470
+Generation 3 longest: 537
+Generation 4 longest: 203
+Generation 5 longest: 555
+-----------
+
+Generation 1 longest: 368
+Generation 2 longest: 118
+-----------
+
+Generation 1 longest: 491
+-----------
+
+Generation 1 longest: 2437
+Generation 2 longest: 2432
+Generation 3 longest: 2713
+Generation 4 longest: 2817
+Generation 5 longest: 2742
+Generation 6 longest: 1778
+-----------
+
+Generation 1 longest: 659
+Generation 2 longest: 4491
+Generation 3 longest: 4521
+Generation 4 longest: 43
+-----------
+
+Generation 1 longest: 4629
+Generation 2 longest: 4622
+Generation 3 longest: 4588
+Generation 4 longest: 4592
+Generation 5 longest: 4596
+Generation 6 longest: 4600
+Generation 7 longest: 4604
+Generation 8 longest: 4608
+Generation 9 longest: 4611
+Generation 10 longest: 4613
+Generation 11 longest: 4615
+Generation 12 longest: 4617
+Generation 13 longest: 3
+Generation 14 longest: 4994
+Generation 15 longest: 4998
+Generation 16 longest: 4918
+Generation 17 longest: 4922
+Generation 18 longest: 4926
+Generation 19 longest: 4930
+Generation 20 longest: 4934
+Generation 21 longest: 4938
+Generation 22 longest: 4942
+Generation 23 longest: 4946
+Generation 24 longest: 4950
+Generation 25 longest: 4954
+Generation 26 longest: 4958
+Generation 27 longest: 4962
+Generation 28 longest: 4966
+Generation 29 longest: 4970
+Generation 30 longest: 4974
+Generation 31 longest: 4978
+Generation 32 longest: 4982
+Generation 33 longest: 4986
+Generation 34 longest: 4990
+Generation 35 longest: 4994
+Generation 36 longest: 4998
+Generation 37 longest: 7
+Generation 38 longest: 2
+Generation 39 longest: 176
+-----------
+
+Generation 1 longest: 2561
+Generation 2 longest: 2556
+Generation 3 longest: 2556
+Generation 4 longest: 2619
+Generation 5 longest: 2623
+Generation 6 longest: 2627
+Generation 7 longest: 2631
+Generation 8 longest: 2635
+Generation 9 longest: 2639
+Generation 10 longest: 2643
+Generation 11 longest: 2647
+Generation 12 longest: 2651
+Generation 13 longest: 2655
+Generation 14 longest: 2659
+Generation 15 longest: 2663
+Generation 16 longest: 2667
+Generation 17 longest: 2671
+Generation 18 longest: 2675
+Generation 19 longest: 2679
+Generation 20 longest: 2683
+Generation 21 longest: 2687
+Generation 22 longest: 2691
+Generation 23 longest: 2695
+Generation 24 longest: 2699
+Generation 25 longest: 2703
+Generation 26 longest: 2706
+Generation 27 longest: 2710
+Generation 28 longest: 2714
+Generation 29 longest: 2717
+Generation 30 longest: 2721
+Generation 31 longest: 2725
+Generation 32 longest: 2729
+Generation 33 longest: 2733
+Generation 34 longest: 2737
+Generation 35 longest: 2741
+Generation 36 longest: 2745
+Generation 37 longest: 2749
+Generation 38 longest: 2753
+Generation 39 longest: 2757
+Generation 40 longest: 2761
+Generation 41 longest: 2765
+Generation 42 longest: 2769
+Generation 43 longest: 2773
+Generation 44 longest: 2777
+Generation 45 longest: 2781
+Generation 46 longest: 2785
+Generation 47 longest: 2789
+Generation 48 longest: 2793
+Generation 49 longest: 2797
+Generation 50 longest: 2801
+Generation 51 longest: 2805
+Generation 52 longest: 2809
+Generation 53 longest: 2813
+Generation 54 longest: 2817
+Generation 55 longest: 2821
+Generation 56 longest: 2825
+Generation 57 longest: 2829
+Generation 58 longest: 2833
+Generation 59 longest: 2837
+Generation 60 longest: 2841
+Generation 61 longest: 2845
+Generation 62 longest: 2849
+Generation 63 longest: 2853
+Generation 64 longest: 2857
+Generation 65 longest: 2861
+Generation 66 longest: 2865
+Generation 67 longest: 2869
+Generation 68 longest: 2873
+Generation 69 longest: 2877
+Generation 70 longest: 2881
+Generation 71 longest: 2885
+Generation 72 longest: 2889
+Generation 73 longest: 2893
+Generation 74 longest: 2897
+Generation 75 longest: 2901
+Generation 76 longest: 2905
+Generation 77 longest: 2909
+Generation 78 longest: 2913
+Generation 79 longest: 2917
+Generation 80 longest: 2921
+Generation 81 longest: 2925
+Generation 82 longest: 2929
+Generation 83 longest: 2933
+Generation 84 longest: 2936
+Generation 85 longest: 2940
+Generation 86 longest: 2944
+Generation 87 longest: 2947
+Generation 88 longest: 2951
+Generation 89 longest: 2955
+Generation 90 longest: 2959
+Generation 91 longest: 2963
+Generation 92 longest: 2967
+Generation 93 longest: 2971
+Generation 94 longest: 2975
+Generation 95 longest: 2979
+Generation 96 longest: 2983
+Generation 97 longest: 2987
+Generation 98 longest: 2991
+Generation 99 longest: 2995
+Generation 100 longest: 2999
+Generation 101 longest: 3003
+Generation 102 longest: 3007
+Generation 103 longest: 3011
+Generation 104 longest: 3015
+Generation 105 longest: 3019
+Generation 106 longest: 3023
+Generation 107 longest: 3027
+Generation 108 longest: 3031
+Generation 109 longest: 3035
+Generation 110 longest: 3039
+Generation 111 longest: 3043
+Generation 112 longest: 3047
+Generation 113 longest: 3051
+Generation 114 longest: 3055
+Generation 115 longest: 3059
+Generation 116 longest: 3063
+Generation 117 longest: 3067
+Generation 118 longest: 3071
+Generation 119 longest: 3075
+Generation 120 longest: 3079
+Generation 121 longest: 3083
+Generation 122 longest: 3087
+Generation 123 longest: 3091
+Generation 124 longest: 3095
+Generation 125 longest: 3099
+Generation 126 longest: 3103
+Generation 127 longest: 3107
+Generation 128 longest: 3111
+Generation 129 longest: 3115
+Generation 130 longest: 3119
+Generation 131 longest: 3123
+Generation 132 longest: 3127
+Generation 133 longest: 3131
+Generation 134 longest: 3135
+Generation 135 longest: 3139
+Generation 136 longest: 3143
+Generation 137 longest: 3147
+Generation 138 longest: 3151
+Generation 139 longest: 3155
+Generation 140 longest: 3159
+Generation 141 longest: 3163
+Generation 142 longest: 3167
+Generation 143 longest: 3171
+Generation 144 longest: 3175
+Generation 145 longest: 3179
+Generation 146 longest: 3183
+Generation 147 longest: 3187
+Generation 148 longest: 3191
+Generation 149 longest: 3194
+Generation 150 longest: 3198
+Generation 151 longest: 3202
+Generation 152 longest: 3206
+Generation 153 longest: 3210
+Generation 154 longest: 3214
+Generation 155 longest: 3218
+Generation 156 longest: 3222
+Generation 157 longest: 3226
+Generation 158 longest: 3230
+Generation 159 longest: 3234
+Generation 160 longest: 3238
+Generation 161 longest: 3242
+Generation 162 longest: 3246
+Generation 163 longest: 3250
+Generation 164 longest: 3254
+Generation 165 longest: 3258
+Generation 166 longest: 3258
+-----------
+
+Generation 1 longest: 119
+-----------
+
+Generation 1 longest: 3131
+-----------
+
+Generation 1 longest: 69
+-----------
+
+Generation 1 longest: 101
+-----------
+
+Generation 1 longest: 35
+-----------
+
+Generation 1 longest: 43
+-----------
+
+Generation 1 longest: 51
+-----------
+
+Generation 1 longest: 578
+-----------
+
+Generation 1 longest: 323
+-----------
+
+Generation 1 longest: 104
+Generation 2 longest: 113
+Generation 3 longest: 71
+-----------
+
+Generation 1 longest: 1951
+-----------
+
+Generation 1 longest: 571
+Generation 1 longest: 281
+Generation 1 longest: 686
+Generation 2 longest: 694
+Generation 3 longest: 702
+Generation 4 longest: 710
+Generation 5 longest: 718
+Generation 6 longest: 726
+Generation 7 longest: 733
+Generation 8 longest: 736
+Generation 9 longest: 744
+Generation 10 longest: 752
+Generation 11 longest: 760
+Generation 12 longest: 768
+Generation 13 longest: 776
+Generation 14 longest: 784
+Generation 15 longest: 792
+Generation 16 longest: 800
+Generation 17 longest: 808
+Generation 18 longest: 816
+Generation 19 longest: 195
+Generation 1 longest: 1511
+Generation 1 longest: 1003
+Generation 2 longest: 1011
+Generation 3 longest: 1019
+Generation 4 longest: 1027
+Generation 5 longest: 1035
+Generation 6 longest: 1043
+Generation 7 longest: 1051
+Generation 8 longest: 1059
+Generation 9 longest: 1067
+Generation 10 longest: 1075
+Generation 11 longest: 1083
+Generation 12 longest: 1091
+Generation 13 longest: 1099
+Generation 14 longest: 1107
+Generation 15 longest: 1115
+Generation 16 longest: 1123
+Generation 17 longest: 1131
+Generation 18 longest: 1139
+Generation 19 longest: 1147
+Generation 20 longest: 1155
+Generation 21 longest: 1163
+Generation 22 longest: 1171
+Generation 23 longest: 1179
+Generation 24 longest: 1187
+Generation 25 longest: 1195
+Generation 26 longest: 1203
+Generation 27 longest: 1211
+Generation 28 longest: 1219
+Generation 29 longest: 1227
+Generation 30 longest: 1235
+Generation 31 longest: 1243
+Generation 32 longest: 1251
+Generation 33 longest: 1259
+Generation 1 longest: 196
+Generation 2 longest: 398
+Generation 1 longest: 307
+Generation 1 longest: 257
+Generation 1 longest: 172
+Generation 2 longest: 427
+Generation 3 longest: 301
+Generation 1 longest: 767
+Generation 2 longest: 755
+Generation 3 longest: 751
+Generation 4 longest: 760
+Generation 1 longest: 169
+Generation 1 longest: 190

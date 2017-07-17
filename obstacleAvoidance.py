@@ -74,6 +74,8 @@ class Car(Circle): #car radius = 10
         self.vMag = v
         self.vTheta = random.random() * np.pi - np.pi/2
         self.deltaTheta = 0.3 if deltaTheta == None else deltaTheta
+
+        
         #Sensor Init Math
         self.sensorLength = sensorLength
         self.sensorSpread = sensorSpread
@@ -90,27 +92,30 @@ class Car(Circle): #car radius = 10
             newSensor.updateAll(self.x, self.y, self.vTheta)
             self.sensors.append(newSensor)
 
+        self.weightFile = str(self.numSensors) + "SensorWeights.npz"
         if syn0 == syn1 == None:
             try:
                 self.trainFromFile()
+                print ("Loaded " + self.weightFile)
             except:
                 print ("Something went wrong with npz file, using random weighting instead")
                 self.randomSyn()
         else:
             self.theseSyn(syn0, syn1)
 
+        
         self.initialValues = (x, y, v)
 
     def clickedOn(self, event, viewXStart):
         x, y = event.x + viewXStart, event.y
         if distance((self.x - x), (self.y - y)) <= self.r:
             sensors = np.array([self.sensorSpread, self.sensorLength])
-            np.savez("pastWeights.npz", self.syn0, self.syn1, sensors)
-            print ("Written to pastWeights.npz")
+            np.savez(self.weightFile, self.syn0, self.syn1, sensors)
+            print ("Written to " + self.weightFile)
         
 
     def trainFromFile(self):
-        weights = np.load("pastWeights.npz")
+        weights = np.load(self.weightFile)
         self.syn0 = weights["arr_0"]
         self.syn1 = weights["arr_1"]
         self.others = weights["arr_2"]
@@ -123,8 +128,11 @@ class Car(Circle): #car radius = 10
         self.syn0 = syn0
         self.syn1 = syn1
 
+    def getExact(self):
+        return Car(*self.initialValues, self.sensorSpread, self.numSensors, self.sensorLength, self.syn0, self.syn1, self.deltaTheta)
+
     def getMutations(self, num):
-        newCars = []
+        newCars = [self.getExact()]
         while len(newCars) < num:
             newCars.append(self.mutate())
         return newCars
@@ -135,7 +143,7 @@ class Car(Circle): #car radius = 10
         sensorSpreadMutationChoices = [0]*3 + [random.random() - 0.5]
         sensorSpreadRange = (0.2, 2 * np.pi)
         sensorLengthMutationChoices = [0]*10 + list(range(-10, 11))
-        sensorLengthRange = (50, 80)
+        sensorLengthRange = (40, 120)
         while (True):
             newSyn0 = self.syn0 + mutationSize * (np.random.rand(*self.syn0.shape) - 0.5)
             newSyn1 = self.syn1 + mutationSize * (np.random.rand(*self.syn1.shape) - 0.5)
@@ -234,38 +242,38 @@ class Obstacle(Circle):
 class Animation(object):
     def __init__(self, screenWidth, screenHeight):
         self.paused = False
-        self.longCarFile = open("longestCar.txt", "a")
         self.screenWidth = screenWidth
         self.screenHeight = screenHeight
         self.carsToMutate = 3
         self.obstacles = []
         self.width = 5000
         self.height = self.screenHeight
-        self.numObstacles = 150
-        self.numCars = 40
+        self.numObstacles = 250
+        self.numCars = 30
         self.generation = 0
+        """
         count = True
-        for i in range(50, self.width, self.width//30):
+
+        for i in range(100, self.width, self.width//30):
             if count:
-                self.obstacles.append(Obstacle(i, 3*self.height/5, 55))
-                self.obstacles.append(Obstacle(i, self.height/5, 55))
-                self.obstacles.append(Obstacle(i, self.height, 55))
+                self.obstacles.append(Obstacle(i, 3*self.height/5, 75))
+                self.obstacles.append(Obstacle(i, self.height/5, 75))
+                self.obstacles.append(Obstacle(i, self.height, 75))
             else:
-                self.obstacles.append(Obstacle(i, 0, 55))
-                self.obstacles.append(Obstacle(i, 2*self.height/5, 55))
-                self.obstacles.append(Obstacle(i, 4*self.height/5, 55))
+                self.obstacles.append(Obstacle(i, 0, 75))
+                self.obstacles.append(Obstacle(i, 2*self.height/5, 75))
+                self.obstacles.append(Obstacle(i, 4*self.height/5, 75))
             count = not count
 
 
 
         """
-        self.obstacles.append(Obstacle(225, self.height/2, 50))
+        #self.obstacles.append(Obstacle(225, self.height/2, 50))
         while len(self.obstacles) < self.numObstacles:
-            obstacleR = random.randint(8, 16)
+            obstacleR = random.randint(10, 20)
             obstacleY = random.randint(obstacleR, self.height - obstacleR)
             obstacleX = random.randint(obstacleR + 50, self.width - obstacleR)
             self.obstacles.append(Obstacle(obstacleX, obstacleY, obstacleR))
-        """
         self.reinit()
 
     def reinit(self, cars = None):
@@ -274,7 +282,7 @@ class Animation(object):
         if cars == None:
             self.cars = []
             while len(self.cars) < self.numCars:
-                car = Car(0, self.screenHeight/2, 4)
+                car = Car(0, random.randint(self.screenHeight/3, 2*self.screenHeight/3), 4)
                 if car.verify():
                     self.cars.append(car)
         else:
@@ -282,9 +290,21 @@ class Animation(object):
         self.allCars = self.cars
         self.updateView()
 
+    def mutateBestCars(self):
+        originalCars = 0
+        newCars = []
+        for car in self.cars[:self.carsToMutate]:
+            newCars.extend(car.getMutations((self.numCars-originalCars)//self.carsToMutate))
+        while (len(newCars) < self.numCars):
+            car = Car(0, self.height/2, 4)
+            if car.verify():
+                newCars.append(car)
+        self.reinit(newCars)
+
     def updateView(self):
-        carX = max(car.x for car in self.cars)
-        self.viewXStart = carX - self.screenWidth/2
+        if (len(self.cars) != 0):
+            carX = max(car.x for car in self.cars)
+            self.viewXStart = carX - self.screenWidth/2
 
     def mousePressed(self, event):
         for car in self.cars:
@@ -300,15 +320,11 @@ class Animation(object):
 
     def timerFired(self):
         if not self.paused:
-            originalCars = 10
             deadCars = set()
             for i in range(len(self.cars)):
                 car = self.cars[i]
                 if car.update(self.obstacles, self.height):
                     deadCars.add(i)
-                if car.x > self.width:
-                    car.x = 0
-                    car.lap += 1
 
             for i in range(len(self.cars)):
                 car = self.cars[i]
@@ -316,25 +332,13 @@ class Animation(object):
                     if car.collision(obstacle, self.height, self.viewXStart):
                         deadCars.add(i)
 
-            if len(self.cars) - len(deadCars) <= self.carsToMutate: #reinitialize
-                for car in (sorted(self.allCars, key = lambda obj: obj.maxX, reverse = True)[:self.carsToMutate]):
-                    print (car.maxX)
-
-                newCars = []
-                for car in self.cars[:self.carsToMutate]:
-                    newCars.extend(car.getMutations((self.numCars-originalCars)//self.carsToMutate))
-                while (len(newCars) < self.numCars):
-                    car = Car(0, self.height/2, 4)
-                    if car.verify():
-                        newCars.append(car)
-                self.longCarFile.write("Generation %s longest: %d" % (self.generation, max(car.x for car in self.cars)))
-                self.longCarFile.write("\n")
-                self.reinit(newCars)
+            if len(self.cars) + len(deadCars) <= self.carsToMutate: #reinitialize
+                self.mutateBestCars()
 
             deadCars = sorted(list(deadCars))
             for deadCar in deadCars[::-1]:
                 self.cars.pop(deadCar)
-
+                
             self.updateView()
 
     def redrawAll(self, canvas):
@@ -344,7 +348,7 @@ class Animation(object):
         for car in self.cars:
             car.draw(canvas, self.viewXStart)
 
-        canvas.create_text(10, 10, text = self.viewXStart + self.screenWidth/4, anchor = W)
+        canvas.create_text(10, 10, text = self.viewXStart + self.screenWidth/2, anchor = W)
         canvas.create_text(self.screenWidth, 10, text = "Cars Remaining: " + str(len(self.cars)), anchor = E)
         canvas.create_text(self.screenWidth/2, 10, text = "Generation " + str(self.generation))
 
@@ -385,12 +389,6 @@ class Animation(object):
         self.timerFiredWrapper(canvas)
         # and launch the app
         root.mainloop()  # blocks until window is closed
-        self.longCarFile.write("Generation %s longest: %d" % (self.generation, max(car.x for car in self.cars)))
-        self.longCarFile.write("\n")
-        self.longCarFile.write("-----------")
-        self.longCarFile.write("\n")
-        self.longCarFile.write("\n")
-        self.longCarFile.close()
         print("bye!")
 
 Animation(1200, 600).run()
