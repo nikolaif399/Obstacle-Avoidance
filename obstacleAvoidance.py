@@ -92,7 +92,7 @@ class Car(Circle): #car radius = 10
             newSensor.updateAll(self.x, self.y, self.vTheta)
             self.sensors.append(newSensor)
 
-        self.weightFile = str(self.numSensors) + "SensorWeights.npz"
+        self.weightFile = "weights/" + (self.numSensors) + "SensorWeights.npz"
         if syn0 == syn1 == None:
             try:
                 self.trainFromFile()
